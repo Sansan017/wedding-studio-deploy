@@ -1,0 +1,6 @@
+{
+  "name": "Wedding Studio Free",
+  "description": "Platform pembuatan undangan pernikahan digital otomatis yang elegan, modern, dan gratis tanpa coding.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

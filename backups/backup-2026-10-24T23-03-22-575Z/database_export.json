@@ -1,0 +1,259 @@
+{
+  "users": [
+    {
+      "id": "user_demo_01",
+      "email": "demo@weddingstudio.id",
+      "password_hash": "4fee46b9a688e4f5b9953427e792cfce5f7666a59bc466036f7ef7bc27b78e42",
+      "full_name": "Raden Febrian",
+      "plan_tier": "free",
+      "created_at": "2026-10-24T05:39:09.723Z",
+      "updated_at": "2026-10-24T06:41:03.382Z"
+    },
+    {
+      "id": "usr_1792824111943_273401",
+      "email": "test_alice_9113@weddingstudio.id",
+      "password_hash": "$2b$10$6VzEZz3hAjyfXHUEtn5xneu621ElYwTkorG.fiHGZF1X/NeNQ8.cq",
+      "full_name": "Alice Hardened",
+      "plan_tier": "free",
+      "created_at": "2026-10-24T06:41:52.061Z",
+      "updated_at": "2026-10-24T06:41:52.061Z"
+    },
+    {
+      "id": "usr_1792824112308_523e8d",
+      "email": "test_bob_9113@weddingstudio.id",
+      "password_hash": "$2b$10$mG5HwIys6v8wfj5.FNKV1.whjBbeP//8ULyYZVUugUXv4qfmn0i.6",
+      "full_name": "Bob Attacker",
+      "plan_tier": "free",
+      "created_at": "2026-10-24T06:41:52.423Z",
+      "updated_at": "2026-10-24T06:41:52.423Z"
+    },
+    {
+      "id": "usr_1792827933892_fee32d",
+      "email": "brute_victim_21889@test.id",
+      "password_hash": "$2b$10$RuLc6jwl1faZH5VOjQm64.pVHGtQ6Qh9lXy/dLsQtcI5T9fT7c2qG",
+      "full_name": "Victim",
+      "plan_tier": "free",
+      "created_at": "2026-10-24T07:45:33.991Z",
+      "updated_at": "2026-10-24T07:45:33.991Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token_hash": "52b3194c940de2be1ed5c4ab98aaad664962e02b210060f6561a7c8b3d65afea",
+      "user_id": "usr_1792824111943_273401",
+      "created_at": "2026-10-24T06:41:52.062Z",
+      "expires_at": 1793428912062,
+      "is_revoked": 1
+    },
+    {
+      "token_hash": "0d8e69af426b5378ba26247b5ecba2223018d4f7f62ec8566e987bc9ae9c3242",
+      "user_id": "usr_1792824111943_273401",
+      "created_at": "2026-10-24T06:41:52.182Z",
+      "expires_at": 1793428912182,
+      "is_revoked": 0
+    },
+    {
+      "token_hash": "81aa66375bf4008e88e2db859d9693dbc60f8642533b94038ac923bf2707294a",
+      "user_id": "usr_1792824111943_273401",
+      "created_at": "2026-10-24T06:41:52.302Z",
+      "expires_at": 1793428912302,
+      "is_revoked": 0
+    },
+    {
+      "token_hash": "482fcf934c549436210f73351156eba7276557802ce159daf5060b9e68eee3b6",
+      "user_id": "usr_1792824112308_523e8d",
+      "created_at": "2026-10-24T06:41:52.424Z",
+      "expires_at": 1793428912424,
+      "is_revoked": 0
+    },
+    {
+      "token_hash": "d99fde3aeb8edd7d7d3d9d737209162e5ee016e45072dda5371665792e6fabe3",
+      "user_id": "usr_1792827933892_fee32d",
+      "created_at": "2026-10-24T07:45:33.992Z",
+      "expires_at": 1793432733992,
+      "is_revoked": 0
+    }
+  ],
+  "weddings": [
+    {
+      "id": "wed_demo_001",
+      "owner_id": "user_demo_01",
+      "title": "The Wedding of Raden & Annisa",
+      "slug": "raden-annisa-demo",
+      "is_published": 1,
+      "theme_id": "minimalist-ivory",
+      "font_pair": "cormorant-jakarta",
+      "color_palette": "{\"primary\":\"#8C7355\",\"secondary\":\"#C5A880\",\"accent\":\"#B89758\",\"background\":\"#FAF8F5\",\"surface\":\"#FFFFFF\",\"text\":\"#2C2623\",\"textMuted\":\"#786F66\"}",
+      "hero_layout": "classic_centered",
+      "cover_image": "/src/assets/images/wedding_couple_portrait_1792819792980.jpg",
+      "groom": "{\"name\":\"Raden Febrian Pratama, S.Kom\",\"nickname\":\"Raden\",\"father\":\"Bpk. Hendra Febrian\",\"mother\":\"Ibu Ratna Dewi\",\"bio\":\"Putra pertama dari dua bersaudara yang berprofesi sebagai UI/UX Designer & Entrepreneur.\",\"instagram\":\"@radenfebrian\",\"photo_url\":\"/src/assets/images/wedding_groom_photo_1792819793218.jpg\"}",
+      "bride": "{\"name\":\"Annisa Putri Maharani, S.Ds\",\"nickname\":\"Annisa\",\"father\":\"Bpk. Joko Susanto\",\"mother\":\"Ibu Sri Rahayu\",\"bio\":\"Putri bungsu dari tiga bersaudara yang berprofesi sebagai Fashion Stylist & Florist.\",\"instagram\":\"@annisaputri\",\"photo_url\":\"/src/assets/images/wedding_bride_photo_1792819793289.jpg\"}",
+      "events": "[{\"id\":\"ev-akad\",\"title\":\"Akad Nikah\",\"date\":\"2026-12-12\",\"start_time\":\"08:00\",\"end_time\":\"10:00\",\"timezone\":\"WIB\",\"location_name\":\"Masjid Raya Al-Ikhlas\",\"address\":\"Jl. Melati Indah No. 18, Kebayoran Baru, Jakarta Selatan\",\"maps_url\":\"https://maps.google.com/?q=Jakarta\",\"is_active\":true},{\"id\":\"ev-resepsi\",\"title\":\"Resepsi Pernikahan\",\"date\":\"2026-12-12\",\"start_time\":\"11:00\",\"end_time\":\"14:00\",\"timezone\":\"WIB\",\"location_name\":\"The Glass House Garden Pavilion\",\"address\":\"Jl. Jenderal Sudirman Kav. 52, SCBD, Jakarta Selatan\",\"maps_url\":\"https://maps.google.com/?q=Jakarta\",\"is_active\":true}]",
+      "love_stories": "[{\"id\":\"ls-1\",\"year\":\"2021\",\"title\":\"Pertemuan Pertama di Kafe Bandung\",\"description\":\"Bermula dari secangkir kopi hangat saat menghadiri seminar desain kreatif. Percakapan santai itu berlanjut menjadi diskusi penuh tawa hingga kafe tutup.\",\"photo_url\":\"/src/assets/images/wedding_banner_floral_1792819792887.jpg\"},{\"id\":\"ls-2\",\"year\":\"2023\",\"title\":\"Menjalin Komitmen Bersama\",\"description\":\"Setelah melewati banyak cerita dan saling mendampingi impian, kami memutuskan untuk melangkah bersama dengan komitmen yang lebih erat.\",\"photo_url\":\"/src/assets/images/wedding_couple_portrait_1792819792980.jpg\"}]",
+      "gallery_photos": "[{\"id\":\"g-1\",\"url\":\"/src/assets/images/wedding_couple_portrait_1792819792980.jpg\",\"caption\":\"Momen penuh tawa bahagia\"},{\"id\":\"g-2\",\"url\":\"/src/assets/images/wedding_banner_floral_1792819792887.jpg\",\"caption\":\"Suasana dekorasi penuh bunga\"},{\"id\":\"g-3\",\"url\":\"/src/assets/images/wedding_bride_photo_1792819793289.jpg\",\"caption\":\"Keanggunan dalam balutan putih\"},{\"id\":\"g-4\",\"url\":\"/src/assets/images/wedding_groom_photo_1792819793218.jpg\",\"caption\":\"Senyum penuh syukur\"}]",
+      "bank_accounts": "[{\"id\":\"ba-1\",\"bank_name\":\"Bank Central Asia (BCA)\",\"account_number\":\"8271928374\",\"account_holder\":\"Raden Febrian Pratama\"},{\"id\":\"ba-2\",\"bank_name\":\"Bank Mandiri\",\"account_number\":\"1370019283746\",\"account_holder\":\"Annisa Putri Maharani\"}]",
+      "gift_address": "{\"recipient_name\":\"Raden & Annisa\",\"phone\":\"0812-3456-7890\",\"address\":\"Jl. Kemang Raya No. 45, Mampang Prapatan, Jakarta Selatan 12730\",\"note\":\"Titipkan di resepsionis / pos satpam atas nama Raden & Annisa\"}",
+      "dress_code": "{\"title\":\"Dress Code Tamu Undangan\",\"description\":\"Formal / Batik / Earth Tone & Champagne Nuance\",\"colors\":[\"#FAF8F5\",\"#C5A880\",\"#536B54\",\"#8C7355\",\"#2C2623\"]}",
+      "quote": "{\"text\":\"Dan di antara tanda-tanda kebesaran-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.\",\"source\":\"QS. Ar-Rum: 21\"}",
+      "sections_order": "[{\"id\":\"hero\",\"label\":\"Cover & Pembuka\",\"is_enabled\":true},{\"id\":\"quote\",\"label\":\"Kutipan & Doa\",\"is_enabled\":true},{\"id\":\"couple\",\"label\":\"Mempelai Pria & Wanita\",\"is_enabled\":true},{\"id\":\"events\",\"label\":\"Waktu & Tempat Acara\",\"is_enabled\":true},{\"id\":\"countdown\",\"label\":\"Hitung Mundur Waktu\",\"is_enabled\":true},{\"id\":\"story\",\"label\":\"Kisah Cinta (Love Story)\",\"is_enabled\":true},{\"id\":\"gallery\",\"label\":\"Galeri Foto Mempelai\",\"is_enabled\":true},{\"id\":\"dresscode\",\"label\":\"Dress Code & Panduan\",\"is_enabled\":true},{\"id\":\"rsvp\",\"label\":\"Konfirmasi Kehadiran (RSVP)\",\"is_enabled\":true},{\"id\":\"wishes\",\"label\":\"Buku Tamu & Ucapan Doa\",\"is_enabled\":true},{\"id\":\"gifts\",\"label\":\"Amplop Digital / Hadiah\",\"is_enabled\":true}]",
+      "audio_bg": "{\"enabled\":true,\"title\":\"Canon in D (Romantic Piano)\",\"artist\":\"Wedding Studio Collection\",\"url\":\"\",\"auto_play\":false}",
+      "free_plan_badge": 1,
+      "created_at": "2026-10-24T05:39:09.724Z",
+      "updated_at": "2026-10-24T05:39:09.724Z"
+    },
+    {
+      "id": "wed_1792824112430_0f70eb",
+      "owner_id": "usr_1792824111943_273401",
+      "title": "Pernikahan Alice & Partner",
+      "slug": "alice-wedding-9113",
+      "is_published": 1,
+      "theme_id": "minimalist-ivory",
+      "font_pair": "cormorant-jakarta",
+      "color_palette": "{}",
+      "hero_layout": "classic_centered",
+      "cover_image": "",
+      "groom": "{\"name\":\"Alice Partner\",\"nickname\":\"Partner\"}",
+      "bride": "{\"name\":\"Alice\",\"nickname\":\"Alice\"}",
+      "events": "[]",
+      "love_stories": "[]",
+      "gallery_photos": "[]",
+      "bank_accounts": "[]",
+      "gift_address": "{}",
+      "dress_code": "{}",
+      "quote": "{}",
+      "sections_order": "[]",
+      "audio_bg": "{}",
+      "free_plan_badge": 1,
+      "created_at": "2026-10-24T06:41:52.430Z",
+      "updated_at": "2026-10-24T06:41:52.469Z"
+    },
+    {
+      "id": "wed_1792824112451_2f5bf4",
+      "owner_id": "usr_1792824111943_273401",
+      "title": "Undangan Kedua Alice",
+      "slug": "alice-wedding-two-9113",
+      "is_published": 0,
+      "theme_id": "minimalist-ivory",
+      "font_pair": "cormorant-jakarta",
+      "color_palette": "{}",
+      "hero_layout": "classic_centered",
+      "cover_image": "",
+      "groom": "{}",
+      "bride": "{}",
+      "events": "[]",
+      "love_stories": "[]",
+      "gallery_photos": "[]",
+      "bank_accounts": "[]",
+      "gift_address": "{}",
+      "dress_code": "{}",
+      "quote": "{}",
+      "sections_order": "[]",
+      "audio_bg": "{}",
+      "free_plan_badge": 1,
+      "created_at": "2026-10-24T06:41:52.451Z",
+      "updated_at": "2026-10-24T06:41:52.451Z"
+    }
+  ],
+  "rsvps": [
+    {
+      "id": "rsvp_demo_01",
+      "wedding_id": "wed_demo_001",
+      "guest_name": "Bpk. Hendra & Ibu Sinta",
+      "attendance": "hadir",
+      "pax_count": 2,
+      "message": "Selamat berbahagia untuk Raden & Annisa! Semoga sakinah, mawaddah, warahmah selamanya.",
+      "ip_hash": "",
+      "created_at": "2026-10-24T00:39:09.724Z"
+    },
+    {
+      "id": "rsvp_demo_02",
+      "wedding_id": "wed_demo_001",
+      "guest_name": "Budi Santoso (Rekan IT)",
+      "attendance": "hadir",
+      "pax_count": 1,
+      "message": "Lancar sampai hari H bro Raden! Mantap acaranya.",
+      "ip_hash": "",
+      "created_at": "2026-10-24T03:39:09.724Z"
+    },
+    {
+      "id": "rsvp_demo_03",
+      "wedding_id": "wed_demo_001",
+      "guest_name": "Keluarga Bpk. Dimas",
+      "attendance": "ragu",
+      "pax_count": 2,
+      "message": "Insya Allah hadir jika tidak ada dinas luar kota.",
+      "ip_hash": "",
+      "created_at": "2026-10-24T04:39:09.724Z"
+    },
+    {
+      "id": "rsvp_1792820361742_qip8",
+      "wedding_id": "wed_demo_001",
+      "guest_name": "Keluarga Bpk. Rahmat",
+      "attendance": "hadir",
+      "pax_count": 3,
+      "message": "Selamat menempuh hidup baru! Semoga langgeng dan bahagia selalu.",
+      "ip_hash": "ab54a5cf",
+      "created_at": "2026-10-24T05:39:21.742Z"
+    },
+    {
+      "id": "rsvp_1792824112472_8d9395",
+      "wedding_id": "wed_1792824112430_0f70eb",
+      "guest_name": "Tamu Pertama",
+      "attendance": "hadir",
+      "pax_count": 2,
+      "message": "Selamat berbahagia!",
+      "ip_hash": "ab54a5cf",
+      "created_at": "2026-10-24T06:41:52.472Z"
+    }
+  ],
+  "guest_messages": [
+    {
+      "id": "wish_demo_01",
+      "wedding_id": "wed_demo_001",
+      "sender_name": "Bpk. Hendra & Ibu Sinta",
+      "relationship": "Keluarga Besar",
+      "message": "Selamat berbahagia untuk Raden & Annisa! Semoga selalu rukun, bahagia, dan penuh berkah hingga maut memisahkan.",
+      "is_approved": 1,
+      "created_at": "2026-10-24T00:39:09.724Z"
+    },
+    {
+      "id": "wish_demo_02",
+      "wedding_id": "wed_demo_001",
+      "sender_name": "Budi Santoso (Rekan IT)",
+      "relationship": "Rekan Kerja",
+      "message": "Barakallahu lakuma wa baraka alaikuma wa jama'a bainakuma fii khoir. Selamat menempuh hidup baru sahabatku!",
+      "is_approved": 1,
+      "created_at": "2026-10-24T03:39:09.724Z"
+    },
+    {
+      "id": "wish_1792820361742_b0p3",
+      "wedding_id": "wed_demo_001",
+      "sender_name": "Keluarga Bpk. Rahmat",
+      "relationship": "Teman Kerja",
+      "message": "Selamat menempuh hidup baru! Semoga langgeng dan bahagia selalu.",
+      "is_approved": 1,
+      "created_at": "2026-10-24T05:39:21.742Z"
+    },
+    {
+      "id": "wish_1792824112473_b6c985",
+      "wedding_id": "wed_1792824112430_0f70eb",
+      "sender_name": "Tamu Pertama",
+      "relationship": "Tamu Undangan",
+      "message": "Selamat berbahagia!",
+      "is_approved": 1,
+      "created_at": "2026-10-24T06:41:52.472Z"
+    }
+  ],
+  "media_files": [
+    {
+      "id": "med_1792824112488_f3498d",
+      "user_id": "usr_1792824111943_273401",
+      "original_name": "test_wedding.png",
+      "stored_filename": "bf147b03-b740-4edc-931c-31e370f655fd.png",
+      "mime_type": "image/png",
+      "size_bytes": 70,
+      "file_path": "/app/applet/uploads/bf147b03-b740-4edc-931c-31e370f655fd.png",
+      "created_at": "2026-10-24T06:41:52.488Z"
+    }
+  ]
+}

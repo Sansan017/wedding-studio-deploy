@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "createdAt": "2026-10-24T09:46:21.651Z",
+  "environment": "wedding-studio-free-beta",
+  "sourceDatabase": "SQLite",
+  "counts": {
+    "users": 4,
+    "sessions": 5,
+    "weddings": 3,
+    "rsvps": 5,
+    "guest_messages": 4,
+    "media_files": 1
+  },
+  "mediaFilesCount": 3,
+  "checksums": {
+    "sqliteDb": "7e2921d0e1d8d18b98e715e107fa5f2728cc9a750ae49c7553e59db105ebaa2e",
+    "databaseExportJson": "1d67a3db588af15c66e53598ac1d43b0b60a73e15bd8cf838f3ebe0f962a3f01",
+    "mediaFiles": {
+      "21525e4a-6367-444a-8229-11c5a1c2aabc.png": "6b7fa434f92a8b80aab02d9bf1a12e49ffcae424e4013a1c4f68b67e3d2bbcd0",
+      "4089c8bf-d80d-43bb-aa8b-8f5173f3e246.png": "6b7fa434f92a8b80aab02d9bf1a12e49ffcae424e4013a1c4f68b67e3d2bbcd0",
+      "bf147b03-b740-4edc-931c-31e370f655fd.png": "6b7fa434f92a8b80aab02d9bf1a12e49ffcae424e4013a1c4f68b67e3d2bbcd0"
+    }
+  }
+}
